@@ -1,0 +1,46 @@
+# Copyright (C) 2023  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+
+# Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+# File: E:\Users\Marc Gershow\Documents\GitHub\trig3_board_pllphase_de0nano-firmware\pin connections.csv
+# Generated on: Wed Nov 15 16:09:09 2023
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+clk50,Unknown,PIN_R8,3,B3_N0,3.3-V LVTTL,,,,,
+clk80in,Unknown,PIN_R9,4,B4_N0,LVDS,,maximum current,,clk80in(n),
+enable_outputs,Unknown,PIN_N9,4,B4_N0,2.5 V,,,,,
+serial_in,Unknown,PIN_L13,5,B5_N0,,,,,,
+serial_out,Unknown,PIN_L14,5,B5_N0,2.5 V,,,,,
+clk80in(n),Unknown,PIN_T9,4,B4_N0,LVDS,,maximum current,,clk80in,
+pv16_differential,Unknown,PIN_R16,5,B5_N0,LVDS,,,,pv16_differential(n),
+pv16_differential(n),Unknown,PIN_P16,5,B5_N0,LVDS,,,,pv16_differential,
+photon_detection[1],Unknown,PIN_B6,8,B8_N0,,,,,,
+photon_detection[0],Unknown,PIN_A6,8,B8_N0,,,,,,
+lvds_second_input,Unknown,PIN_K15,5,B5_N0,LVDS,,,,lvds_second_input(n),
+lvds_second_input(n),Unknown,PIN_K16,5,B5_N0,LVDS,,,,lvds_second_input,
+decimated_photon,Unknown,PIN_N11,4,B4_N0,,,,,,
+laser_clock,Unknown,PIN_F9,7,B7_N0,,,,,,
+and_results[0],Unknown,PIN_C11,7,B7_N0,,,,,,
+and_results[1],Unknown,PIN_E11,7,B7_N0,,,,,,
+led[7],Unknown,PIN_L3,2,B2_N0,,,,,,
+led[6],Unknown,PIN_B1,1,B1_N0,,,,,,
+led[5],Unknown,PIN_F3,1,B1_N0,,,,,,
+led[4],Unknown,PIN_D1,1,B1_N0,,,,,,
+led[3],Unknown,PIN_A11,7,B7_N0,,,,,,
+led[2],Unknown,PIN_B13,7,B7_N0,,,,,,
+led[1],Unknown,PIN_A13,7,B7_N0,,,,,,
+led[0],Unknown,PIN_A15,7,B7_N0,,,,,,

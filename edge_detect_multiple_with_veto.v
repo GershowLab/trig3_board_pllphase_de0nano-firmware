@@ -1,10 +1,6 @@
 //adapted from https://www.fpga4fun.com/CrossClockDomain2.html
 
-//captures whether photon arrived during validA or validB points
-//then generates pulses aligned to the rising (A) or falling (B) edge of phase shifted clock
-//intention is that phase shifted clock should rise with or shortly before validA goes high and fall with or shortly before validB goes high
-//pulses in phase shifted domain are then transferred via same mechanism to clk_out 
-//veto supressed output for up to 3 clock cycles after photon is detected
+//uses edge_detect_with_veto to count photons arrival into bins
 
 
 module edge_detect_multiple_with_veto(
