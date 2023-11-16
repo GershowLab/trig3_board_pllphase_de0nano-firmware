@@ -8029,15 +8029,6 @@ Source: www.kingbright.com</description>
 <part name="SV1" library="con-lsta" deviceset="FE20-2" device=""/>
 <part name="SV2" library="con-lsta" deviceset="FE20-2" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="M13X2" device="2X13"/>
-<part name="M16CLK_3N" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="E16CLK_2N" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="E15CLK_2P" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="J141" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
-<part name="J15" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
-<part name="J16" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
-<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="50"/>
-<part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="50"/>
-<part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="50"/>
 <part name="F8_T10P" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
 <part name="J18" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="R21" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="50"/>
@@ -8200,30 +8191,6 @@ SERIAL: L13, L14</text>
 <instance part="J2" gate="G$1" x="88.9" y="27.94" smashed="yes" rot="R270">
 <attribute name="VALUE" x="68.58" y="33.02" size="1.778" layer="96" rot="R270"/>
 <attribute name="NAME" x="107.442" y="33.02" size="1.778" layer="95" rot="R270"/>
-</instance>
-<instance part="M16CLK_3N" gate="G1" x="-66.04" y="101.6" smashed="yes">
-<attribute name="NAME" x="-68.58" y="104.902" size="1.778" layer="95"/>
-</instance>
-<instance part="E16CLK_2N" gate="G1" x="-66.04" y="88.9" smashed="yes">
-<attribute name="NAME" x="-68.58" y="92.202" size="1.778" layer="95"/>
-</instance>
-<instance part="E15CLK_2P" gate="G1" x="-66.04" y="76.2" smashed="yes">
-<attribute name="NAME" x="-68.58" y="79.502" size="1.778" layer="95"/>
-</instance>
-<instance part="J141" gate="G$1" x="-78.74" y="101.6" smashed="yes" rot="R180"/>
-<instance part="J15" gate="G$1" x="-78.74" y="88.9" smashed="yes" rot="R180"/>
-<instance part="J16" gate="G$1" x="-78.74" y="76.2" smashed="yes" rot="R180"/>
-<instance part="R15" gate="G$1" x="-58.42" y="104.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="-54.61" y="102.6414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-54.61" y="107.442" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R18" gate="G$1" x="-58.42" y="91.44" smashed="yes" rot="R180">
-<attribute name="NAME" x="-54.61" y="89.9414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-54.61" y="94.742" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R19" gate="G$1" x="-58.42" y="78.74" smashed="yes" rot="R180">
-<attribute name="NAME" x="-54.61" y="77.2414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-54.61" y="82.042" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="F8_T10P" gate="G1" x="-66.04" y="114.3" smashed="yes">
 <attribute name="NAME" x="-68.58" y="117.602" size="1.778" layer="95"/>
@@ -8525,37 +8492,7 @@ SERIAL: L13, L14</text>
 <wire x1="-71.12" y1="111.76" x2="-63.5" y2="111.76" width="0.1524" layer="91"/>
 <junction x="-63.5" y="111.76"/>
 <wire x1="-53.34" y1="111.76" x2="-63.5" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="J141" gate="G$1" pin="1"/>
-<pinref part="M16CLK_3N" gate="G1" pin="2"/>
-<wire x1="-63.5" y1="99.06" x2="-71.12" y2="99.06" width="0.1524" layer="91"/>
-<junction x="-63.5" y="99.06"/>
-<wire x1="-63.5" y1="99.06" x2="-53.34" y2="99.06" width="0.1524" layer="91"/>
-<junction x="-53.34" y="99.06"/>
-<pinref part="E16CLK_2N" gate="G1" pin="2"/>
-<pinref part="J15" gate="G$1" pin="1"/>
-<wire x1="-71.12" y1="86.36" x2="-63.5" y2="86.36" width="0.1524" layer="91"/>
-<junction x="-63.5" y="86.36"/>
-<wire x1="-63.5" y1="86.36" x2="-53.34" y2="86.36" width="0.1524" layer="91"/>
-<junction x="-53.34" y="86.36"/>
-<pinref part="J16" gate="G$1" pin="1"/>
-<pinref part="E15CLK_2P" gate="G1" pin="2"/>
-<wire x1="-63.5" y1="73.66" x2="-71.12" y2="73.66" width="0.1524" layer="91"/>
-<junction x="-63.5" y="73.66"/>
-<wire x1="-63.5" y1="73.66" x2="-53.34" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="73.66" x2="-53.34" y2="60.96" width="0.1524" layer="91"/>
-<junction x="-53.34" y="73.66"/>
-<wire x1="-53.34" y1="73.66" x2="-53.34" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="1"/>
-<junction x="-53.34" y="78.74"/>
-<wire x1="-53.34" y1="78.74" x2="-53.34" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="86.36" x2="-53.34" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="1"/>
-<junction x="-53.34" y="91.44"/>
-<wire x1="-53.34" y1="91.44" x2="-53.34" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="99.06" x2="-53.34" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<junction x="-53.34" y="104.14"/>
-<wire x1="-53.34" y1="104.14" x2="-53.34" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="60.96" x2="-53.34" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <junction x="-53.34" y="116.84"/>
 <wire x1="-53.34" y1="116.84" x2="-53.34" y2="111.76" width="0.1524" layer="91"/>
@@ -9903,45 +9840,6 @@ SERIAL: L13, L14</text>
 <pinref part="OJ77" gate="G$1" pin="1"/>
 <wire x1="342.9" y1="226.06" x2="289.56" y2="226.06" width="0.1524" layer="91"/>
 <junction x="289.56" y="226.06"/>
-</segment>
-</net>
-<net name="GPIO_2_IN1_E16CLK" class="0">
-<segment>
-<pinref part="E16CLK_2N" gate="G1" pin="1"/>
-<pinref part="J15" gate="G$1" pin="2"/>
-<wire x1="-63.5" y1="88.9" x2="-63.5" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="91.44" x2="-71.12" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="2"/>
-<junction x="-63.5" y="91.44"/>
-<wire x1="-71.12" y1="91.44" x2="-93.98" y2="91.44" width="0.1524" layer="91"/>
-<junction x="-71.12" y="91.44"/>
-<label x="-106.68" y="91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GPIO_2_IN0_E15CLK" class="0">
-<segment>
-<pinref part="J16" gate="G$1" pin="2"/>
-<pinref part="E15CLK_2P" gate="G1" pin="1"/>
-<wire x1="-63.5" y1="76.2" x2="-63.5" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="78.74" x2="-71.12" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-<junction x="-63.5" y="78.74"/>
-<wire x1="-71.12" y1="78.74" x2="-93.98" y2="78.74" width="0.1524" layer="91"/>
-<junction x="-71.12" y="78.74"/>
-<label x="-106.68" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GPIO_2_IN2_M16CLK" class="0">
-<segment>
-<pinref part="M16CLK_3N" gate="G1" pin="1"/>
-<pinref part="J141" gate="G$1" pin="2"/>
-<wire x1="-63.5" y1="101.6" x2="-63.5" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="104.14" x2="-71.12" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="2"/>
-<junction x="-63.5" y="104.14"/>
-<wire x1="-71.12" y1="104.14" x2="-93.98" y2="104.14" width="0.1524" layer="91"/>
-<junction x="-71.12" y="104.14"/>
-<label x="-106.68" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO_23_C16" class="0">
