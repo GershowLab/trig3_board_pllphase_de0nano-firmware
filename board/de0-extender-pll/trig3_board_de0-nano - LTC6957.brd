@@ -4392,6 +4392,7 @@ einem neuen Namen ab.</description>
 <wire x1="29.15" y1="46" x2="29.15" y2="47.692" width="0.1524" layer="1"/>
 <wire x1="29.15" y1="47.692" x2="29.21" y2="47.752" width="0.1524" layer="1"/>
 <via x="29.21" y="47.752" extent="1-16" drill="0.35"/>
+<via x="23.622" y="101.981" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="5V" class="1">
 <contactref element="SV1" pad="11"/>
@@ -5818,6 +5819,24 @@ einem neuen Namen ab.</description>
 <wire x1="14.9225" y1="51.27625" x2="14.12875" y2="52.07" width="0.127" layer="1"/>
 <wire x1="-8.41375" y1="54.45125" x2="-8.509" y2="54.483" width="0.127" layer="1"/>
 <wire x1="14.9225" y1="51.27625" x2="15" y2="51.15" width="0.127" layer="1"/>
+</signal>
+<signal name="GND1" airwireshidden="yes">
+<via x="13.716" y="91.186" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND2" airwireshidden="yes">
+<via x="35.56" y="107.569" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND3" airwireshidden="yes">
+<via x="17.272" y="74.803" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND4" airwireshidden="yes">
+<via x="15.748" y="63.246" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND6" airwireshidden="yes">
+<via x="41.275" y="67.056" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND9" airwireshidden="yes">
+<via x="-9.779" y="52.451" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
