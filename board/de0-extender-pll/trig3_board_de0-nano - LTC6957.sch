@@ -17238,10 +17238,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="OJ44" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="VSLUE5" library="sn74lvth244argyr" deviceset="SN74LVTH244ARGYR" device=""/>
 <part name="C96" library="SparkFun-Capacitors" deviceset="CAP" device="-0805" value="0.1uF"/>
-<part name="OJ45" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
-<part name="OJ46" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
-<part name="OJ47" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
-<part name="OJ48" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="P15" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
 <part name="F9" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
 <part name="E7" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
@@ -17252,10 +17248,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="OJ60" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="VSLUE7" library="sn74lvth244argyr" deviceset="SN74LVTH244ARGYR" device=""/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="-0805" value="0.1uF"/>
-<part name="OJ61" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
-<part name="OJ62" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
-<part name="OJ63" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
-<part name="OJ64" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="J13" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
 <part name="C11" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
 <part name="P11" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
@@ -17266,10 +17258,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="OJ76" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="VSLUE9" library="sn74lvth244argyr" deviceset="SN74LVTH244ARGYR" device=""/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="-0805" value="0.1uF"/>
-<part name="OJ77" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
-<part name="OJ78" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
-<part name="OJ79" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
-<part name="OJ80" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="L16_R11N" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
 <part name="R16_R15P" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
 <part name="J32" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
@@ -17511,10 +17499,6 @@ T9 - clock in -
 <attribute name="NAME" x="290.576" y="126.619" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="290.576" y="131.699" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="OJ45" gate="G$1" x="350.52" y="111.76" smashed="yes"/>
-<instance part="OJ46" gate="G$1" x="350.52" y="96.52" smashed="yes"/>
-<instance part="OJ47" gate="G$1" x="187.96" y="121.92" smashed="yes"/>
-<instance part="OJ48" gate="G$1" x="187.96" y="106.68" smashed="yes"/>
 <instance part="P15" gate="G1" x="200.66" y="172.72" smashed="yes">
 <attribute name="NAME" x="198.12" y="176.022" size="1.778" layer="95"/>
 </instance>
@@ -17536,10 +17520,6 @@ T9 - clock in -
 <attribute name="NAME" x="290.576" y="182.499" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="290.576" y="187.579" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="OJ61" gate="G$1" x="350.52" y="167.64" smashed="yes"/>
-<instance part="OJ62" gate="G$1" x="350.52" y="152.4" smashed="yes"/>
-<instance part="OJ63" gate="G$1" x="187.96" y="177.8" smashed="yes"/>
-<instance part="OJ64" gate="G$1" x="187.96" y="162.56" smashed="yes"/>
 <instance part="J13" gate="G1" x="200.66" y="228.6" smashed="yes">
 <attribute name="NAME" x="198.12" y="231.902" size="1.778" layer="95"/>
 </instance>
@@ -17561,10 +17541,6 @@ T9 - clock in -
 <attribute name="NAME" x="290.576" y="238.379" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="290.576" y="243.459" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="OJ77" gate="G$1" x="350.52" y="223.52" smashed="yes"/>
-<instance part="OJ78" gate="G$1" x="350.52" y="208.28" smashed="yes"/>
-<instance part="OJ79" gate="G$1" x="187.96" y="233.68" smashed="yes"/>
-<instance part="OJ80" gate="G$1" x="187.96" y="218.44" smashed="yes"/>
 <instance part="L16_R11N" gate="G1" x="-66.04" y="167.64" smashed="yes">
 <attribute name="NAME" x="-68.58" y="170.942" size="1.778" layer="95"/>
 </instance>
@@ -17849,26 +17825,6 @@ T9 - clock in -
 <label x="325.12" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="104.14" x2="180.34" y2="96.52" width="0.1524" layer="91"/>
-<label x="180.34" y="96.52" size="1.778" layer="95" rot="R90"/>
-<pinref part="OJ48" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="180.34" y1="119.38" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
-<label x="180.34" y="111.76" size="1.778" layer="95" rot="R90"/>
-<pinref part="OJ47" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="342.9" y1="93.98" x2="342.9" y2="86.36" width="0.1524" layer="91"/>
-<label x="342.9" y="86.36" size="1.778" layer="95" rot="R90"/>
-<pinref part="OJ46" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="342.9" y1="109.22" x2="342.9" y2="101.6" width="0.1524" layer="91"/>
-<label x="342.9" y="101.6" size="1.778" layer="95" rot="R90"/>
-<pinref part="OJ45" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="VSLUE7" gate="A" pin="GND"/>
 <wire x1="251.46" y1="154.94" x2="238.76" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="154.94" x2="238.76" y2="147.32" width="0.1524" layer="91"/>
@@ -17904,26 +17860,6 @@ T9 - clock in -
 <label x="325.12" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="160.02" x2="180.34" y2="152.4" width="0.1524" layer="91"/>
-<label x="180.34" y="152.4" size="1.778" layer="95" rot="R90"/>
-<pinref part="OJ64" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="180.34" y1="175.26" x2="180.34" y2="167.64" width="0.1524" layer="91"/>
-<label x="180.34" y="167.64" size="1.778" layer="95" rot="R90"/>
-<pinref part="OJ63" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="342.9" y1="149.86" x2="342.9" y2="142.24" width="0.1524" layer="91"/>
-<label x="342.9" y="142.24" size="1.778" layer="95" rot="R90"/>
-<pinref part="OJ62" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="342.9" y1="165.1" x2="342.9" y2="157.48" width="0.1524" layer="91"/>
-<label x="342.9" y="157.48" size="1.778" layer="95" rot="R90"/>
-<pinref part="OJ61" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="VSLUE9" gate="A" pin="GND"/>
 <wire x1="251.46" y1="210.82" x2="238.76" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="210.82" x2="238.76" y2="203.2" width="0.1524" layer="91"/>
@@ -17957,26 +17893,6 @@ T9 - clock in -
 <pinref part="OJ75" gate="G$1" pin="2"/>
 <wire x1="322.58" y1="220.98" x2="330.2" y2="220.98" width="0.1524" layer="91"/>
 <label x="325.12" y="218.44" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="180.34" y1="215.9" x2="180.34" y2="208.28" width="0.1524" layer="91"/>
-<label x="180.34" y="208.28" size="1.778" layer="95" rot="R90"/>
-<pinref part="OJ80" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="180.34" y1="231.14" x2="180.34" y2="223.52" width="0.1524" layer="91"/>
-<label x="180.34" y="223.52" size="1.778" layer="95" rot="R90"/>
-<pinref part="OJ79" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="342.9" y1="205.74" x2="342.9" y2="198.12" width="0.1524" layer="91"/>
-<label x="342.9" y="198.12" size="1.778" layer="95" rot="R90"/>
-<pinref part="OJ78" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="342.9" y1="220.98" x2="342.9" y2="213.36" width="0.1524" layer="91"/>
-<label x="342.9" y="213.36" size="1.778" layer="95" rot="R90"/>
-<pinref part="OJ77" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="J34" gate="G$1" pin="1"/>
@@ -18272,9 +18188,6 @@ T9 - clock in -
 <wire x1="241.3" y1="109.22" x2="241.3" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="104.14" x2="251.46" y2="104.14" width="0.1524" layer="91"/>
 <label x="233.68" y="109.22" size="1.778" layer="95"/>
-<junction x="241.3" y="109.22"/>
-<pinref part="OJ48" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="109.22" x2="180.34" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO_09_D5" class="0">
@@ -18396,9 +18309,6 @@ T9 - clock in -
 <label x="233.68" y="119.38" size="1.778" layer="95"/>
 <wire x1="241.3" y1="119.38" x2="231.14" y2="119.38" width="0.1524" layer="91"/>
 <junction x="241.3" y="119.38"/>
-<wire x1="231.14" y1="119.38" x2="231.14" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="124.46" x2="180.34" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="OJ47" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GPIO_012_B7" class="0">
@@ -18435,9 +18345,6 @@ T9 - clock in -
 <wire x1="241.3" y1="165.1" x2="241.3" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="160.02" x2="251.46" y2="160.02" width="0.1524" layer="91"/>
 <label x="233.68" y="165.1" size="1.778" layer="95"/>
-<junction x="241.3" y="165.1"/>
-<pinref part="OJ64" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="165.1" x2="180.34" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO_020_E8" class="0">
@@ -18460,9 +18367,6 @@ T9 - clock in -
 <pinref part="VSLUE7" gate="A" pin="2A1"/>
 <wire x1="289.56" y1="154.94" x2="276.86" y2="154.94" width="0.1524" layer="91"/>
 <label x="294.64" y="152.4" size="1.778" layer="95"/>
-<pinref part="OJ62" gate="G$1" pin="1"/>
-<wire x1="289.56" y1="154.94" x2="342.9" y2="154.94" width="0.1524" layer="91"/>
-<junction x="289.56" y="154.94"/>
 </segment>
 </net>
 <net name="3V3" class="1">
@@ -18577,9 +18481,6 @@ T9 - clock in -
 <label x="233.68" y="231.14" size="1.778" layer="95"/>
 <wire x1="241.3" y1="231.14" x2="231.14" y2="231.14" width="0.1524" layer="91"/>
 <junction x="241.3" y="231.14"/>
-<wire x1="231.14" y1="231.14" x2="231.14" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="236.22" x2="180.34" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="OJ79" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GPIO_028_C11" class="0">
@@ -18595,9 +18496,6 @@ T9 - clock in -
 <pinref part="VSLUE9" gate="A" pin="2A1"/>
 <wire x1="289.56" y1="210.82" x2="276.86" y2="210.82" width="0.1524" layer="91"/>
 <label x="294.64" y="208.28" size="1.778" layer="95"/>
-<pinref part="OJ78" gate="G$1" pin="1"/>
-<wire x1="289.56" y1="210.82" x2="342.9" y2="210.82" width="0.1524" layer="91"/>
-<junction x="289.56" y="210.82"/>
 </segment>
 </net>
 <net name="GPIO_030_A12" class="0">
@@ -18702,9 +18600,6 @@ T9 - clock in -
 <pinref part="VSLUE5" gate="A" pin="2A4"/>
 <wire x1="289.56" y1="114.3" x2="276.86" y2="114.3" width="0.1524" layer="91"/>
 <label x="294.64" y="111.76" size="1.778" layer="95"/>
-<pinref part="OJ45" gate="G$1" pin="1"/>
-<wire x1="342.9" y1="114.3" x2="289.56" y2="114.3" width="0.1524" layer="91"/>
-<junction x="289.56" y="114.3"/>
 </segment>
 </net>
 <net name="GPIO_115_N11" class="0">
@@ -18720,9 +18615,6 @@ T9 - clock in -
 <pinref part="VSLUE5" gate="A" pin="2A1"/>
 <wire x1="289.56" y1="99.06" x2="276.86" y2="99.06" width="0.1524" layer="91"/>
 <label x="294.64" y="96.52" size="1.778" layer="95"/>
-<pinref part="OJ46" gate="G$1" pin="1"/>
-<wire x1="289.56" y1="99.06" x2="342.9" y2="99.06" width="0.1524" layer="91"/>
-<junction x="289.56" y="99.06"/>
 </segment>
 </net>
 <net name="GPIO_117_K16" class="0">
@@ -18929,9 +18821,6 @@ T9 - clock in -
 <wire x1="241.3" y1="220.98" x2="241.3" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="215.9" x2="251.46" y2="215.9" width="0.1524" layer="91"/>
 <label x="233.68" y="220.98" size="1.778" layer="95"/>
-<junction x="241.3" y="220.98"/>
-<pinref part="OJ80" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="220.98" x2="180.34" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO_112_N12" class="0">
@@ -19047,9 +18936,6 @@ T9 - clock in -
 <pinref part="VSLUE7" gate="A" pin="2A4"/>
 <wire x1="289.56" y1="170.18" x2="276.86" y2="170.18" width="0.1524" layer="91"/>
 <label x="294.64" y="167.64" size="1.778" layer="95"/>
-<pinref part="OJ61" gate="G$1" pin="1"/>
-<wire x1="342.9" y1="170.18" x2="289.56" y2="170.18" width="0.1524" layer="91"/>
-<junction x="289.56" y="170.18"/>
 </segment>
 </net>
 <net name="GPIO_122_R14" class="0">
@@ -19119,9 +19005,6 @@ T9 - clock in -
 <pinref part="VSLUE9" gate="A" pin="2A4"/>
 <wire x1="289.56" y1="226.06" x2="276.86" y2="226.06" width="0.1524" layer="91"/>
 <label x="294.64" y="223.52" size="1.778" layer="95"/>
-<pinref part="OJ77" gate="G$1" pin="1"/>
-<wire x1="342.9" y1="226.06" x2="289.56" y2="226.06" width="0.1524" layer="91"/>
-<junction x="289.56" y="226.06"/>
 </segment>
 </net>
 <net name="GPIO_23_C16" class="0">
@@ -19134,9 +19017,6 @@ T9 - clock in -
 <label x="233.68" y="175.26" size="1.778" layer="95"/>
 <wire x1="241.3" y1="175.26" x2="231.14" y2="175.26" width="0.1524" layer="91"/>
 <junction x="241.3" y="175.26"/>
-<wire x1="231.14" y1="175.26" x2="231.14" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="180.34" x2="180.34" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="OJ63" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="OUT21" class="0">
