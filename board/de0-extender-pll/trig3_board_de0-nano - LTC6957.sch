@@ -17269,7 +17269,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="T13_B20N" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
 <part name="J38" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="R32" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="50"/>
-<part name="J3" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(4P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33137/1" value="4p-2.54"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="red">
 <attribute name="LCSC_PART#" value="C84256"/>
 </part>
@@ -17564,9 +17563,6 @@ T9 - clock in -
 <instance part="R32" gate="G$1" x="0" y="213.36" smashed="yes" rot="R180">
 <attribute name="NAME" x="3.81" y="211.8614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="3.81" y="216.662" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="J3" gate="G$1" x="82.55" y="127" smashed="yes" rot="R90">
-<attribute name="NAME" x="76.2" y="119.38" size="1.27" layer="95" ratio="10" rot="R90"/>
 </instance>
 <instance part="LED1" gate="G$1" x="99.06" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="103.632" y="112.776" size="1.778" layer="95" rot="R180"/>
@@ -18518,11 +18514,6 @@ T9 - clock in -
 <wire x1="48.26" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
 <label x="45.72" y="43.18" size="1.778" layer="95" rot="MR0"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="P$2"/>
-<wire x1="81.28" y1="119.38" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
-<label x="83.82" y="101.6" size="1.778" layer="95" rot="R90"/>
-</segment>
 </net>
 <net name="GPIO_11_T15" class="0">
 <segment>
@@ -18562,22 +18553,12 @@ T9 - clock in -
 <wire x1="48.26" y1="53.34" x2="40.64" y2="53.34" width="0.1524" layer="91"/>
 <label x="45.72" y="53.34" size="1.778" layer="95" rot="MR0"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="P$3"/>
-<wire x1="83.82" y1="119.38" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
-<label x="86.36" y="101.6" size="1.778" layer="95" rot="R90"/>
-</segment>
 </net>
 <net name="GPIO_19_R11" class="0">
 <segment>
 <pinref part="SV2" gate="G$1" pin="14"/>
 <wire x1="48.26" y1="58.42" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
 <label x="45.72" y="58.42" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="P$1"/>
-<wire x1="78.74" y1="119.38" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
-<label x="81.28" y="101.6" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GPIO_111_R10" class="0">
@@ -18840,7 +18821,6 @@ T9 - clock in -
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="119.38" x2="88.9" y2="119.38" width="0.1524" layer="91"/>
 <label x="91.44" y="116.84" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="P$4"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="88.9" y1="119.38" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="109.22" x2="88.9" y2="109.22" width="0.1524" layer="91"/>
