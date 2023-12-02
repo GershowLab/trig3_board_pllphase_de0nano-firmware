@@ -17204,9 +17204,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.254" drill="0">
+<class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="power" width="0.762" drill="0">
+<class number="1" name="power" width="0" drill="0">
 </class>
 <class number="2" name="used_pins" width="0" drill="0">
 </class>
@@ -18152,11 +18152,6 @@ T9 - clock in -
 </net>
 <net name="5V" class="1">
 <segment>
-<pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="119.38" x2="116.84" y2="127" width="0.1524" layer="91"/>
-<label x="119.38" y="124.46" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="SV1" gate="G$1" pin="11"/>
 <wire x1="111.76" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
 <label x="93.98" y="78.74" size="1.778" layer="95" rot="MR180"/>
@@ -18553,6 +18548,11 @@ T9 - clock in -
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="279.4" y1="243.84" x2="292.1" y2="243.84" width="0.1524" layer="91"/>
 <label x="279.4" y="243.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="119.38" x2="124.46" y2="119.38" width="0.1524" layer="91"/>
+<label x="119.38" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO_024_C9" class="0">
