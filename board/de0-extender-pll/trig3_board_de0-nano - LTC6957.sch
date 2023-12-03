@@ -17983,6 +17983,17 @@ T9 - clock in -
 <wire x1="-63.5" y1="165.1" x2="-50.8" y2="165.1" width="0.1524" layer="91"/>
 <junction x="-63.5" y="165.1"/>
 <label x="-60.96" y="165.1" size="1.778" layer="95"/>
+<pinref part="R13_B20P" gate="G1" pin="2"/>
+<junction x="0" y="180.34"/>
+<pinref part="R161" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="185.42" x2="10.16" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="180.34" x2="0" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="J17" gate="G$1" pin="1"/>
+<wire x1="-7.62" y1="180.34" x2="0" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="165.1" x2="10.16" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="165.1" x2="10.16" y2="180.34" width="0.1524" layer="91"/>
+<junction x="-50.8" y="165.1"/>
+<junction x="10.16" y="180.34"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -19217,17 +19228,6 @@ T9 - clock in -
 <wire x1="104.14" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="R13_B20P" gate="G1" pin="2"/>
-<junction x="0" y="180.34"/>
-<pinref part="R161" gate="G$1" pin="1"/>
-<wire x1="10.16" y1="185.42" x2="10.16" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="180.34" x2="0" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="J17" gate="G$1" pin="1"/>
-<wire x1="-7.62" y1="180.34" x2="0" y2="180.34" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="CLK-IN+" gate="G1" pin="1"/>
@@ -19324,7 +19324,7 @@ T9 - clock in -
 <wire x1="73.66" y1="165.1" x2="88.9" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="FILTA" class="0">
 <segment>
 <pinref part="S2" gate="G$1" pin="1"/>
 <pinref part="R13" gate="G$1" pin="2"/>
@@ -19334,9 +19334,10 @@ T9 - clock in -
 <wire x1="-147.32" y1="33.02" x2="-147.32" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="-22.86" x2="-86.36" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="-86.36" y="-22.86"/>
+<label x="-114.3" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="FILTB" class="0">
 <segment>
 <pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="S2" gate="G$1" pin="2"/>
@@ -19345,9 +19346,10 @@ T9 - clock in -
 <wire x1="-83.82" y1="-20.32" x2="-142.24" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="-20.32" x2="-142.24" y2="20.32" width="0.1524" layer="91"/>
 <junction x="-83.82" y="-20.32"/>
+<label x="-114.3" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="SD1" class="0">
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
 <pinref part="S2" gate="G$1" pin="3"/>
@@ -19357,9 +19359,10 @@ T9 - clock in -
 <wire x1="-73.66" y1="30.48" x2="-73.66" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="-20.32" x2="-81.28" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="-81.28" y="-20.32"/>
+<label x="-73.66" y="0" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="SD2" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="S2" gate="G$1" pin="4"/>
@@ -19369,6 +19372,7 @@ T9 - clock in -
 <wire x1="-68.58" y1="17.78" x2="-68.58" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="-22.86" x2="-78.74" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="-78.74" y="-22.86"/>
+<label x="-68.58" y="0" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
