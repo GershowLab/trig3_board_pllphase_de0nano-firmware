@@ -8,8 +8,8 @@
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,23 +22,23 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="3" fill="1" visible="no" active="no"/>
@@ -255,6 +255,7 @@ respective cutouts </text>
 here</text>
 <text x="76.581" y="37.211" size="1.27" layer="25">temporal demultiplexer adapter  - de0 nano
 Marc Gershow &amp; Andy Haas</text>
+<text x="96.901" y="103.124" size="1.27" layer="25">K</text>
 </plain>
 <libraries>
 <library name="Seeed-Connector" urn="urn:adsk.eagle:library:478">
@@ -1677,30 +1678,30 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
 Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
 <packages>
-<package name="CHIP-LED0805" urn="urn:adsk.eagle:footprint:15672/1" library_version="4">
-<description>&lt;b&gt;Hyper CHIPLED Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
-LB R99A&lt;br&gt;
-Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
-<wire x1="-0.625" y1="0.45" x2="-0.625" y2="-0.45" width="0.1016" layer="51"/>
-<wire x1="0.625" y1="0.45" x2="0.625" y2="-0.475" width="0.1016" layer="51"/>
-<smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
-<smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
-<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.675" y1="0" x2="-0.525" y2="0.3" layer="21"/>
-<rectangle x1="0.525" y1="0" x2="0.675" y2="0.3" layer="21"/>
-<rectangle x1="-0.15" y1="0" x2="0.15" y2="0.3" layer="21"/>
-<rectangle x1="-0.675" y1="0.45" x2="0.675" y2="1.05" layer="51"/>
-<rectangle x1="-0.675" y1="-1.05" x2="0.675" y2="-0.45" layer="51"/>
+<package name="SML0805" urn="urn:adsk.eagle:footprint:15683/1" library_version="4">
+<description>&lt;b&gt;SML0805-2CW-TR (0805 PROFILE)&lt;/b&gt; COOL WHITE&lt;p&gt;
+Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
+<wire x1="-0.95" y1="-0.55" x2="0.95" y2="-0.55" width="0.1016" layer="51"/>
+<wire x1="0.95" y1="-0.55" x2="0.95" y2="0.55" width="0.1016" layer="51"/>
+<wire x1="0.95" y1="0.55" x2="-0.95" y2="0.55" width="0.1016" layer="51"/>
+<wire x1="-0.95" y1="0.55" x2="-0.95" y2="-0.55" width="0.1016" layer="51"/>
+<wire x1="-0.175" y1="-0.025" x2="0" y2="0.15" width="0.0634" layer="21"/>
+<wire x1="0" y1="0.15" x2="0.15" y2="0" width="0.0634" layer="21"/>
+<wire x1="0.15" y1="0" x2="-0.025" y2="-0.175" width="0.0634" layer="21"/>
+<wire x1="-0.025" y1="-0.175" x2="-0.175" y2="-0.025" width="0.0634" layer="21"/>
+<circle x="-0.275" y="0.4" radius="0.125" width="0" layer="21"/>
+<smd name="C" x="-1.05" y="0" dx="1.2" dy="1.2" layer="1"/>
+<smd name="A" x="1.05" y="0" dx="1.2" dy="1.2" layer="1"/>
+<text x="-1.5" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.5" y="-2" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="CHIP-LED0805" urn="urn:adsk.eagle:package:15818/2" type="model" library_version="4">
-<description>Hyper CHIPLED Hyper-Bright LED
-LB R99A
-Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
+<package3d name="SML0805" urn="urn:adsk.eagle:package:15830/1" type="box" library_version="4">
+<description>SML0805-2CW-TR (0805 PROFILE) COOL WHITE
+Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <packageinstances>
-<packageinstance name="CHIP-LED0805"/>
+<packageinstance name="SML0805"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3644,6 +3645,7 @@ einem neuen Namen ab.</description>
 </autorouter>
 <elements>
 <element name="CLK-IN+" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="-14.32861875" y="44.3" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C496549" x="-14.32861875" y="44.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="-14.32861875" y="44.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-14.32861875" y="44.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-19.57" y="47.22638125" size="1.27" layer="21" rot="R270"/>
@@ -3652,6 +3654,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULARITY" value="0" x="-14.32861875" y="44.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="CLK-IN-" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="-3.64135" y="44.3" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C496549" x="-3.64135" y="44.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="-3.64135" y="44.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-3.64135" y="44.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-8.935" y="47.27865" size="1.27" layer="21" rot="R270"/>
@@ -3660,6 +3663,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULARITY" value="0" x="-3.64135" y="44.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R13P" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="-34.9" y="70.6" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C496549" x="-34.9" y="70.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="-26.9" y="56.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-26.9" y="56.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-41.044" y="73.629" size="1.778" layer="25" rot="R270"/>
@@ -3710,6 +3714,7 @@ einem neuen Namen ab.</description>
 <attribute name="MPN" value="P125-1102A0BS116A1" x="-35.98165" y="45.552" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="K16N" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="-24.42261875" y="51.412" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C496549" x="-24.42261875" y="51.412" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="-24.42261875" y="51.412" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-24.42261875" y="51.412" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-30.045" y="54.60838125" size="1.778" layer="25" rot="R270"/>
@@ -3718,6 +3723,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULARITY" value="0" x="-24.42261875" y="51.412" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="K15P" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="-34.94435" y="51.412" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C496549" x="-34.94435" y="51.412" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="-34.94435" y="51.412" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-34.94435" y="51.412" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-41.127" y="54.40665" size="1.778" layer="25" rot="R270"/>
@@ -3744,6 +3750,7 @@ einem neuen Namen ab.</description>
 <attribute name="MPN" value="P125-1102A0BS116A1" x="99.0214125" y="48.04" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="A6" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="98.0158875" y="54.05" smashed="yes">
+<attribute name="LCSC_PART#" value="C496549" x="98.0158875" y="54.05" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="98.0158875" y="54.05" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="98.0158875" y="54.05" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="97.3838875" y="44.235" size="1.778" layer="25"/>
@@ -3752,6 +3759,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULARITY" value="0" x="98.0158875" y="54.05" size="1.778" layer="27" display="off"/>
 </element>
 <element name="B6" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="107.96361875" y="54.05" smashed="yes">
+<attribute name="LCSC_PART#" value="C496549" x="107.96361875" y="54.05" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="107.96361875" y="54.05" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="107.96361875" y="54.05" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="107.61861875" y="44.202" size="1.778" layer="25"/>
@@ -3760,6 +3768,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULARITY" value="0" x="107.96361875" y="54.05" size="1.778" layer="27" display="off"/>
 </element>
 <element name="P9" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="73.879575" y="53.95" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C496549" x="73.879575" y="53.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="73.879575" y="53.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="73.879575" y="53.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="73.469425" y="43.984" size="1.778" layer="25"/>
@@ -3768,6 +3777,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULARITY" value="0" x="73.879575" y="53.95" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="N11" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="63.93184375" y="53.95" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C496549" x="63.93184375" y="53.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="63.93184375" y="53.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="63.93184375" y="53.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="62.62215625" y="43.89" size="1.778" layer="25"/>
@@ -3801,6 +3811,7 @@ einem neuen Namen ab.</description>
 <attribute name="MPN" value="P125-1102A0BS116A1" x="99.0214125" y="68.04" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="E7" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="98.0158875" y="74.05" smashed="yes">
+<attribute name="LCSC_PART#" value="C496549" x="98.0158875" y="74.05" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="98.0158875" y="74.05" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="98.0158875" y="74.05" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="97.7038875" y="64.174" size="1.778" layer="25"/>
@@ -3809,6 +3820,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULARITY" value="0" x="98.0158875" y="74.05" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C16" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="107.96361875" y="74.05" smashed="yes">
+<attribute name="LCSC_PART#" value="C496549" x="107.96361875" y="74.05" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="107.96361875" y="74.05" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="107.96361875" y="74.05" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="107.17661875" y="64.014" size="1.778" layer="25"/>
@@ -3817,6 +3829,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULARITY" value="0" x="107.96361875" y="74.05" size="1.778" layer="27" display="off"/>
 </element>
 <element name="P15" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="73.879575" y="73.95" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C496549" x="73.879575" y="73.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="73.879575" y="73.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="73.879575" y="73.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="72.789425" y="64.431" size="1.778" layer="25"/>
@@ -3825,6 +3838,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULARITY" value="0" x="73.879575" y="73.95" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="F9" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="63.93184375" y="73.95" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C496549" x="63.93184375" y="73.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="63.93184375" y="73.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="63.93184375" y="73.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="63.46615625" y="64.464" size="1.778" layer="25"/>
@@ -3858,6 +3872,7 @@ einem neuen Namen ab.</description>
 <attribute name="MPN" value="P125-1102A0BS116A1" x="99.0214125" y="88.04" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="P11" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="98.0158875" y="94.05" smashed="yes">
+<attribute name="LCSC_PART#" value="C496549" x="98.0158875" y="94.05" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="98.0158875" y="94.05" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="98.0158875" y="94.05" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="97.0078875" y="83.986" size="1.778" layer="25"/>
@@ -3866,6 +3881,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULARITY" value="0" x="98.0158875" y="94.05" size="1.778" layer="27" display="off"/>
 </element>
 <element name="E11" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="107.96361875" y="94.05" smashed="yes">
+<attribute name="LCSC_PART#" value="C496549" x="107.96361875" y="94.05" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="107.96361875" y="94.05" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="107.96361875" y="94.05" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="107.49661875" y="84.207" size="1.778" layer="25"/>
@@ -3874,6 +3890,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULARITY" value="0" x="107.96361875" y="94.05" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J13" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="73.879575" y="93.95" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C496549" x="73.879575" y="93.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="73.879575" y="93.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="73.879575" y="93.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="73.109425" y="84.243" size="1.778" layer="25"/>
@@ -3882,6 +3899,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULARITY" value="0" x="73.879575" y="93.95" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C11" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="63.93184375" y="93.95" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C496549" x="63.93184375" y="93.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="63.93184375" y="93.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="63.93184375" y="93.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="66.00784375" y="85.777" size="1.778" layer="25" rot="R180"/>
@@ -3909,6 +3927,7 @@ einem neuen Namen ab.</description>
 <attribute name="MPN" value="P125-1102A0BS116A1" x="-15.94865" y="84.79" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="L16_R11N" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="-25.0158875" y="90.65" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C496549" x="-25.0158875" y="90.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="-25.0158875" y="90.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-25.0158875" y="90.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="-25.0158875" y="90.65" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3916,6 +3935,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULARITY" value="0" x="-25.0158875" y="90.65" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R16_R15P" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="-14.91135" y="90.65" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C496549" x="-14.91135" y="90.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="-14.91135" y="90.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-14.91135" y="90.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="-14.91135" y="90.65" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3926,6 +3946,7 @@ einem neuen Namen ab.</description>
 <attribute name="MPN" value="P125-1102A0BS116A1" x="-5.94865" y="84.79" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="P16_R15N" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="-4.91135" y="90.65" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C496549" x="-4.91135" y="90.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="-4.91135" y="90.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-4.91135" y="90.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="-4.91135" y="90.65" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3933,6 +3954,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULARITY" value="0" x="-4.91135" y="90.65" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="L15_R11P" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="-35.1" y="90.6" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C496549" x="-35.1" y="90.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="-27.1" y="76.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-27.1" y="76.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="-27.1" y="76.6" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3946,6 +3968,7 @@ einem neuen Namen ab.</description>
 <attribute name="MPN" value="P125-1102A0BS116A1" x="-25.31365" y="64.79" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="T13N" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="-24.27635" y="70.65" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C496549" x="-24.27635" y="70.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="-24.27635" y="70.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-24.27635" y="70.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-29.951" y="73.51765" size="1.778" layer="25" rot="R270"/>
@@ -3956,10 +3979,9 @@ einem neuen Namen ab.</description>
 <element name="R32" library="SparkFun-Passives" package="AXIAL-0.3" value="50" x="-24.365" y="76" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-24.333" y="78.381" size="1.016" layer="21" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="red" x="95" y="105" smashed="yes" rot="R270">
-<attribute name="LCSC_PART#" value="C84256" x="95" y="105" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="93.73" y="102.27" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="68" x="95" y="105" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1" value="red" x="95" y="105" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C84256" x="95" y="105" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULARITY" value="17" x="95" y="105" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="560" x="101" y="105" smashed="yes">
 <attribute name="LCSC_PART#" value="C28636" x="101" y="105" size="1.778" layer="27" display="off"/>
@@ -4027,6 +4049,7 @@ einem neuen Namen ab.</description>
 <attribute name="SPICEPREFIX" value="R" x="12.542" y="57.238" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="CLK_OUT-" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="-5" y="71" smashed="yes">
+<attribute name="LCSC_PART#" value="C496549" x="-5" y="71" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="-5" y="71" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-5" y="71" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="-5" y="71" size="1.778" layer="27" display="off"/>
@@ -4034,6 +4057,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULARITY" value="0" x="-5" y="71" size="1.778" layer="27" display="off"/>
 </element>
 <element name="CLK_OUT+" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMB-V" package3d_urn="urn:adsk.eagle:package:6209/1" value="BU-SMB-V" x="-14" y="71" smashed="yes">
+<attribute name="LCSC_PART#" value="C496549" x="-14" y="71" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="-22" y="84" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-22" y="84" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="-22" y="84" size="1.778" layer="27" display="off"/>
@@ -4087,7 +4111,7 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="40.734" y="51.696" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="0" x="38" y="50" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="USB-MICROB" value="" x="38" y="39" smashed="yes" rot="R270">
+<element name="J1" library="SparkFun-Connectors" package="USB-MICROB" value="USB micro-b" x="38" y="39" smashed="yes" rot="R270">
 <attribute name="LCSC_PART#" value="C2926993" x="38" y="39" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="43.08" y="41.54" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-09505" x="38" y="39" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4142,11 +4166,13 @@ einem neuen Namen ab.</description>
 <attribute name="SPICEPREFIX" value="C" x="42" y="55" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7 uF" x="30" y="46" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C19666" x="30" y="46" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="30.635" y="45.365" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="73" x="30" y="46" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="30" y="46" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="S2" library="smd-special" library_urn="urn:adsk.eagle:library:362" package="SMS-004" package3d_urn="urn:adsk.eagle:package:26474/1" value="SWS004" x="20" y="42" smashed="yes" rot="R180">
+<attribute name="LCSC_PART#" value="C2842669" x="20" y="42" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="6" x="20" y="42" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330k" x="25" y="52" smashed="yes" rot="R270">

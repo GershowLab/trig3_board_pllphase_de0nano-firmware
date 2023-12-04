@@ -17059,9 +17059,15 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </class>
 </classes>
 <parts>
-<part name="CLK-IN+" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="CLK-IN-" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="R13P" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
+<part name="CLK-IN+" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
+<part name="CLK-IN-" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
+<part name="R13P" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
 <part name="J17" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="R161" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="50"/>
 <part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="10k"/>
@@ -17069,16 +17075,28 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <part name="SV2" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE20-2" device="" package3d_urn="urn:adsk.eagle:package:8184/1"/>
 <part name="J7" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(4P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33137/1" value="4p-2.54"/>
 <part name="J12" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(4P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33137/1" value="4p-2.54"/>
-<part name="K16N" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="K15P" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
+<part name="K16N" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
+<part name="K15P" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
 <part name="J23" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="J24" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="R22" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="50"/>
 <part name="R23" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="50"/>
-<part name="P9" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="N11" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="A6" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="B6" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
+<part name="P9" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
+<part name="N11" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
+<part name="A6" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
+<part name="B6" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
 <part name="OJ41" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="OJ42" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="OJ43" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
@@ -17095,10 +17113,18 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </spice>
 <attribute name="LCSC_PART#" value="C14663"/>
 </part>
-<part name="P15" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="F9" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="E7" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="C16" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
+<part name="P15" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
+<part name="F9" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
+<part name="E7" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
+<part name="C16" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
 <part name="OJ57" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="OJ58" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="OJ59" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
@@ -17115,10 +17141,18 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </spice>
 <attribute name="LCSC_PART#" value="C14663"/>
 </part>
-<part name="J13" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="C11" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="P11" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="E11" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
+<part name="J13" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
+<part name="C11" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
+<part name="P11" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
+<part name="E11" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
 <part name="OJ73" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="OJ74" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="OJ75" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
@@ -17135,18 +17169,28 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </spice>
 <attribute name="LCSC_PART#" value="C14663"/>
 </part>
-<part name="L16_R11N" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="R16_R15P" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
+<part name="L16_R11N" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
+<part name="R16_R15P" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
 <part name="J32" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="J34" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
-<part name="P16_R15N" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
+<part name="P16_R15N" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
 <part name="J42" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
-<part name="L15_R11P" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
+<part name="L15_R11P" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
 <part name="J43" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
-<part name="T13N" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
+<part name="T13N" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
 <part name="J38" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:33132/1" value="2p-2.54"/>
 <part name="R32" library="SparkFun-Passives" deviceset="RESISTOR" device="AXIAL-0.3" value="50"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="red">
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1" value="red">
 <attribute name="LCSC_PART#" value="C84256"/>
 </part>
 <part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="560">
@@ -17236,8 +17280,12 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </spice>
 <attribute name="LCSC_PART#" value="C22775"/>
 </part>
-<part name="CLK_OUT-" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
-<part name="CLK_OUT+" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1"/>
+<part name="CLK_OUT-" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
+<part name="CLK_OUT+" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BU-SMB-V" device="" package3d_urn="urn:adsk.eagle:package:6209/1">
+<attribute name="LCSC_PART#" value="C496549"/>
+</part>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF">
 <spice>
 <pinmapping spiceprefix="C">
@@ -17304,7 +17352,7 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <part name="U2" library="ftdichip-rotate-footprint-jlcpcb" deviceset="FT230X" device="Q" package3d_urn="urn:adsk.eagle:package:14017/1">
 <attribute name="LCSC_PART#" value="C128629"/>
 </part>
-<part name="J1" library="SparkFun-Connectors" deviceset="USB_MICRO-B" device="_SMT">
+<part name="J1" library="SparkFun-Connectors" deviceset="USB_MICRO-B" device="_SMT" value="USB micro-b">
 <attribute name="LCSC_PART#" value="C2926993"/>
 </part>
 <part name="FB1" library="SparkFun-Coils" deviceset="FERRITE_BEAD" device="-0603-30OHM-100MHZ" value="30Ω">
@@ -17373,8 +17421,18 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </spice>
 <attribute name="LCSC_PART#" value="C1671"/>
 </part>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7 uF"/>
-<part name="S2" library="smd-special" library_urn="urn:adsk.eagle:library:362" deviceset="SWS004" device="" package3d_urn="urn:adsk.eagle:package:26474/1"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7 uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC_PART#" value="C19666"/>
+</part>
+<part name="S2" library="smd-special" library_urn="urn:adsk.eagle:library:362" deviceset="SWS004" device="" package3d_urn="urn:adsk.eagle:package:26474/1">
+<attribute name="LCSC_PART#" value="C2842669"/>
+</part>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330k">
 <spice>
 <pinmapping spiceprefix="R">
@@ -17433,12 +17491,15 @@ T9 - clock in -
 <instances>
 <instance part="CLK-IN+" gate="G1" x="-175.26" y="27.94" smashed="yes">
 <attribute name="NAME" x="-185.42" y="31.242" size="1.778" layer="95"/>
+<attribute name="LCSC_PART#" x="-175.26" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CLK-IN-" gate="G1" x="-157.48" y="17.78" smashed="yes">
 <attribute name="NAME" x="-170.18" y="18.542" size="1.778" layer="95"/>
+<attribute name="LCSC_PART#" x="-157.48" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R13P" gate="G1" x="-2.54" y="182.88" smashed="yes">
 <attribute name="NAME" x="-5.08" y="186.182" size="1.778" layer="95"/>
+<attribute name="LCSC_PART#" x="-2.54" y="182.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J17" gate="G$1" x="-15.24" y="182.88" smashed="yes" rot="R180"/>
 <instance part="R161" gate="G$1" x="5.08" y="185.42" smashed="yes" rot="R180">
@@ -17465,9 +17526,11 @@ T9 - clock in -
 </instance>
 <instance part="K16N" gate="G1" x="0" y="88.9" smashed="yes">
 <attribute name="NAME" x="-2.54" y="92.202" size="1.778" layer="95"/>
+<attribute name="LCSC_PART#" x="0" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="K15P" gate="G1" x="0" y="76.2" smashed="yes">
 <attribute name="NAME" x="-2.54" y="79.502" size="1.778" layer="95"/>
+<attribute name="LCSC_PART#" x="0" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J23" gate="G$1" x="-12.7" y="88.9" smashed="yes" rot="R180"/>
 <instance part="J24" gate="G$1" x="-12.7" y="76.2" smashed="yes" rot="R180"/>
@@ -17481,15 +17544,19 @@ T9 - clock in -
 </instance>
 <instance part="P9" gate="G1" x="200.66" y="116.84" smashed="yes">
 <attribute name="NAME" x="198.12" y="120.142" size="1.778" layer="95"/>
+<attribute name="LCSC_PART#" x="200.66" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="N11" gate="G1" x="200.66" y="104.14" smashed="yes">
 <attribute name="NAME" x="198.12" y="107.442" size="1.778" layer="95"/>
+<attribute name="LCSC_PART#" x="200.66" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="A6" gate="G1" x="332.74" y="106.68" smashed="yes" rot="R180">
 <attribute name="NAME" x="335.28" y="103.378" size="1.778" layer="95" rot="R180"/>
+<attribute name="LCSC_PART#" x="332.74" y="106.68" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="B6" gate="G1" x="332.74" y="119.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="335.28" y="116.078" size="1.778" layer="95" rot="R180"/>
+<attribute name="LCSC_PART#" x="332.74" y="119.38" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="OJ41" gate="G$1" x="218.44" y="116.84" smashed="yes"/>
 <instance part="OJ42" gate="G$1" x="218.44" y="104.14" smashed="yes"/>
@@ -17505,15 +17572,19 @@ T9 - clock in -
 </instance>
 <instance part="P15" gate="G1" x="200.66" y="172.72" smashed="yes">
 <attribute name="NAME" x="198.12" y="176.022" size="1.778" layer="95"/>
+<attribute name="LCSC_PART#" x="200.66" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F9" gate="G1" x="200.66" y="160.02" smashed="yes">
 <attribute name="NAME" x="198.12" y="163.322" size="1.778" layer="95"/>
+<attribute name="LCSC_PART#" x="200.66" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="E7" gate="G1" x="332.74" y="162.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="335.28" y="159.258" size="1.778" layer="95" rot="R180"/>
+<attribute name="LCSC_PART#" x="332.74" y="162.56" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C16" gate="G1" x="332.74" y="175.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="335.28" y="171.958" size="1.778" layer="95" rot="R180"/>
+<attribute name="LCSC_PART#" x="332.74" y="175.26" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="OJ57" gate="G$1" x="218.44" y="172.72" smashed="yes"/>
 <instance part="OJ58" gate="G$1" x="218.44" y="160.02" smashed="yes"/>
@@ -17529,15 +17600,19 @@ T9 - clock in -
 </instance>
 <instance part="J13" gate="G1" x="200.66" y="228.6" smashed="yes">
 <attribute name="NAME" x="198.12" y="231.902" size="1.778" layer="95"/>
+<attribute name="LCSC_PART#" x="200.66" y="228.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C11" gate="G1" x="200.66" y="215.9" smashed="yes">
 <attribute name="NAME" x="198.12" y="219.202" size="1.778" layer="95"/>
+<attribute name="LCSC_PART#" x="200.66" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P11" gate="G1" x="332.74" y="218.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="335.28" y="215.138" size="1.778" layer="95" rot="R180"/>
+<attribute name="LCSC_PART#" x="332.74" y="218.44" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="E11" gate="G1" x="332.74" y="231.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="335.28" y="227.838" size="1.778" layer="95" rot="R180"/>
+<attribute name="LCSC_PART#" x="332.74" y="231.14" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="OJ73" gate="G$1" x="218.44" y="228.6" smashed="yes"/>
 <instance part="OJ74" gate="G$1" x="218.44" y="215.9" smashed="yes"/>
@@ -17553,22 +17628,27 @@ T9 - clock in -
 </instance>
 <instance part="L16_R11N" gate="G1" x="-66.04" y="167.64" smashed="yes">
 <attribute name="NAME" x="-68.58" y="170.942" size="1.778" layer="95"/>
+<attribute name="LCSC_PART#" x="-66.04" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R16_R15P" gate="G1" x="-66.04" y="142.24" smashed="yes">
 <attribute name="NAME" x="-68.58" y="145.542" size="1.778" layer="95"/>
+<attribute name="LCSC_PART#" x="-66.04" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J32" gate="G$1" x="-78.74" y="167.64" smashed="yes" rot="R180"/>
 <instance part="J34" gate="G$1" x="-78.74" y="142.24" smashed="yes" rot="R180"/>
 <instance part="P16_R15N" gate="G1" x="-66.04" y="210.82" smashed="yes">
 <attribute name="NAME" x="-68.58" y="214.122" size="1.778" layer="95"/>
+<attribute name="LCSC_PART#" x="-66.04" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J42" gate="G$1" x="-78.74" y="210.82" smashed="yes" rot="R180"/>
 <instance part="L15_R11P" gate="G1" x="-66.04" y="248.92" smashed="yes">
 <attribute name="NAME" x="-68.58" y="252.222" size="1.778" layer="95"/>
+<attribute name="LCSC_PART#" x="-66.04" y="248.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J43" gate="G$1" x="-78.74" y="248.92" smashed="yes" rot="R180"/>
 <instance part="T13N" gate="G1" x="-7.62" y="210.82" smashed="yes">
 <attribute name="NAME" x="-10.16" y="214.122" size="1.778" layer="95"/>
+<attribute name="LCSC_PART#" x="-7.62" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J38" gate="G$1" x="-20.32" y="210.82" smashed="yes" rot="R180"/>
 <instance part="R32" gate="G$1" x="0" y="213.36" smashed="yes" rot="R180">
@@ -17636,9 +17716,11 @@ T9 - clock in -
 </instance>
 <instance part="CLK_OUT-" gate="G1" x="-25.4" y="7.62" smashed="yes" rot="R180">
 <attribute name="NAME" x="-22.86" y="4.318" size="1.778" layer="95" rot="R180"/>
+<attribute name="LCSC_PART#" x="-25.4" y="7.62" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="CLK_OUT+" gate="G1" x="-25.4" y="-2.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="-22.86" y="-5.842" size="1.778" layer="95" rot="R180"/>
+<attribute name="LCSC_PART#" x="-25.4" y="-2.54" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="-139.7" y="50.8" smashed="yes">
 <attribute name="NAME" x="-138.176" y="51.181" size="1.778" layer="95"/>
@@ -17733,10 +17815,12 @@ T9 - clock in -
 <instance part="C13" gate="G$1" x="111.76" y="165.1" smashed="yes">
 <attribute name="NAME" x="113.284" y="165.481" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.284" y="160.401" size="1.778" layer="96"/>
+<attribute name="LCSC_PART#" x="111.76" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="S2" gate="G$1" x="-83.82" y="-15.24" smashed="yes">
 <attribute name="NAME" x="-88.9" y="-17.78" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-74.295" y="-17.78" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC_PART#" x="-83.82" y="-15.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R13" gate="G$1" x="-86.36" y="-27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="-87.8586" y="-31.75" size="1.778" layer="95" rot="R90"/>
