@@ -19072,36 +19072,20 @@ T9 - clock in -
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,279.4,121.92,VSLUE5,VCC,5V,,,"/>
-<approved hash="104,1,279.4,177.8,VSLUE7,VCC,5V,,,"/>
-<approved hash="104,1,279.4,233.68,VSLUE9,VCC,5V,,,"/>
-<approved hash="206,1,279.4,116.84,OUT21,,,,,"/>
-<approved hash="206,1,279.4,111.76,OUT21,,,,,"/>
-<approved hash="206,1,279.4,106.68,OUT22,,,,,"/>
-<approved hash="206,1,279.4,101.6,OUT22,,,,,"/>
 <approved hash="206,1,251.46,116.84,OUT23,,,,,"/>
 <approved hash="206,1,251.46,111.76,OUT23,,,,,"/>
 <approved hash="206,1,251.46,106.68,OUT24,,,,,"/>
 <approved hash="206,1,251.46,101.6,OUT24,,,,,"/>
-<approved hash="206,1,279.4,172.72,OUT29,,,,,"/>
-<approved hash="206,1,279.4,167.64,OUT29,,,,,"/>
-<approved hash="206,1,279.4,162.56,OUT30,,,,,"/>
-<approved hash="206,1,279.4,157.48,OUT30,,,,,"/>
 <approved hash="206,1,251.46,172.72,OUT31,,,,,"/>
 <approved hash="206,1,251.46,167.64,OUT31,,,,,"/>
 <approved hash="206,1,251.46,162.56,OUT32,,,,,"/>
 <approved hash="206,1,251.46,157.48,OUT32,,,,,"/>
-<approved hash="206,1,279.4,228.6,OUT37,,,,,"/>
-<approved hash="206,1,279.4,223.52,OUT37,,,,,"/>
-<approved hash="206,1,279.4,218.44,OUT38,,,,,"/>
-<approved hash="206,1,279.4,213.36,OUT38,,,,,"/>
 <approved hash="206,1,251.46,228.6,OUT39,,,,,"/>
 <approved hash="206,1,251.46,223.52,OUT39,,,,,"/>
 <approved hash="206,1,251.46,218.44,OUT40,,,,,"/>
 <approved hash="206,1,251.46,213.36,OUT40,,,,,"/>
 <approved hash="113,1,119.38,65.7504,SV1,,,,,"/>
 <approved hash="113,1,55.88,68.8696,SV2,,,,,"/>
-<approved hash="113,1,90.4596,27.94,J2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
