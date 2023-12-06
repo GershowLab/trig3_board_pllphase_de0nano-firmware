@@ -17004,6 +17004,24 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 <part name="J1" library="10118192-0002LF" deviceset="10118192-0002LF" device="">
 <attribute name="LCSC_PART#" value="C132564"/>
 </part>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7 uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC_PART#" value="C19666"/>
+</part>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7 uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC_PART#" value="C19666"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -17377,6 +17395,16 @@ T9 - clock in -
 <attribute name="VALUE" x="35.56" y="187.96" size="1.778" layer="96" rot="R180"/>
 <attribute name="LCSC_PART#" x="30.48" y="175.26" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
+<instance part="C14" gate="G$1" x="-147.32" y="50.8" smashed="yes">
+<attribute name="NAME" x="-145.796" y="51.181" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-145.796" y="46.101" size="1.778" layer="96"/>
+<attribute name="LCSC_PART#" x="-147.32" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C15" gate="G$1" x="-114.3" y="50.8" smashed="yes">
+<attribute name="NAME" x="-112.776" y="51.181" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-112.776" y="46.101" size="1.778" layer="96"/>
+<attribute name="LCSC_PART#" x="-114.3" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17623,6 +17651,12 @@ T9 - clock in -
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="-139.7" y1="45.72" x2="-127" y2="45.72" width="0.1524" layer="91"/>
 <label x="-132.08" y="43.18" size="1.778" layer="95"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="-147.32" y1="45.72" x2="-139.7" y2="45.72" width="0.1524" layer="91"/>
+<junction x="-139.7" y="45.72"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="-114.3" y1="45.72" x2="-127" y2="45.72" width="0.1524" layer="91"/>
+<junction x="-127" y="45.72"/>
 </segment>
 <segment>
 <pinref part="J32" gate="G$1" pin="1"/>
@@ -18061,6 +18095,12 @@ T9 - clock in -
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="-127" y1="53.34" x2="-139.7" y2="53.34" width="0.1524" layer="91"/>
 <label x="-134.62" y="53.34" size="1.778" layer="95"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="-147.32" y1="53.34" x2="-139.7" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-139.7" y="53.34"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="-114.3" y1="53.34" x2="-127" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-127" y="53.34"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
