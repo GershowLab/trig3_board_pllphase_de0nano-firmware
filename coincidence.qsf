@@ -170,4 +170,14 @@ set_global_assignment -name BDF_FILE makeHistogram.bdf
 set_global_assignment -name VERILOG_FILE hist10.v
 set_global_assignment -name VERILOG_FILE mydecimator_with_enable.v
 set_global_assignment -name VERILOG_FILE pulse_to_level_shift.v
+set_location_assignment PIN_T12 -to LTC_FILTB
+set_location_assignment PIN_T14 -to LTC_FILTA
+set_location_assignment PIN_T15 -to LTC_SD1
+set_location_assignment PIN_F13 -to LTC_SD2
+set_location_assignment PIN_J16 -to usb_serial_in
+set_location_assignment PIN_M10 -to usb_serial_out
+set_location_assignment PIN_M1 -to DIP_SWITCH[0]
+set_location_assignment PIN_T8 -to DIP_SWITCH[1]
+set_location_assignment PIN_B9 -to DIP_SWITCH[2]
+set_location_assignment PIN_M15 -to DIP_SWITCH[3]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

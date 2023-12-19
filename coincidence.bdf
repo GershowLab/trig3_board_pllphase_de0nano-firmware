@@ -4,9 +4,9 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 2018  Intel Corporation. All rights reserved.
+Copyright (C) 2023  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
@@ -16,7 +16,8 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details.
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "graphic" (version "1.4"))
 (pin
@@ -222,6 +223,70 @@ refer to the applicable agreement for further details.
 		(line (pt 78 12)(pt 82 8))
 	)
 	(annotation_block (location)(rect 1544 1024 1600 1048))
+)
+(pin
+	(output)
+	(rect 1968 920 2144 936)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "LTC_FILTB" (rect 90 0 145 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1968 984 2144 1000)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "LTC_FILTA" (rect 90 0 146 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1968 1016 2144 1032)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "LTC_SD1" (rect 90 0 133 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1976 1056 2152 1072)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "LTC_SD2" (rect 90 0 133 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
 )
 (symbol
 	(rect 424 816 624 928)
@@ -632,6 +697,49 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
+	(rect 1104 328 1320 440)
+	(text "pulse_to_level_shift" (rect 5 0 104 12)(font "Arial" ))
+	(text "inst1" (rect 8 96 31 108)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clkin" (rect 0 0 22 12)(font "Arial" ))
+		(text "clkin" (rect 21 27 43 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "det[1..0]" (rect 0 0 41 12)(font "Arial" ))
+		(text "det[1..0]" (rect 21 43 62 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "encodeAsShift" (rect 0 0 71 12)(font "Arial" ))
+		(text "encodeAsShift" (rect 21 59 92 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "encoded[1..0]" (rect 0 0 67 12)(font "Arial" ))
+		(text "encoded[1..0]" (rect 139 27 206 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32)(line_width 3))
+	)
+	(port
+		(pt 216 48)
+		(output)
+		(text "encshft" (rect 0 0 37 12)(font "Arial" ))
+		(text "encshft" (rect 164 43 201 55)(font "Arial" ))
+		(line (pt 216 48)(pt 200 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 200 96))
+	)
+)
+(symbol
 	(rect 888 808 1144 1112)
 	(text "serialprocessor" (rect 5 0 79 12)(font "Arial" ))
 	(text "inst9" (rect 8 288 31 300)(font "Arial" ))
@@ -791,7 +899,7 @@ refer to the applicable agreement for further details.
 	)
 	(parameter
 		"version"
-		"28"
+		"29"
 		""
 		(type "PARAMETER_UNKNOWN")	)
 	(drawing
@@ -800,46 +908,35 @@ refer to the applicable agreement for further details.
 	(annotation_block (parameter)(rect 904 1080 1024 1118))
 )
 (symbol
-	(rect 1104 328 1320 440)
-	(text "pulse_to_level_shift" (rect 5 0 104 12)(font "Arial" ))
-	(text "inst1" (rect 8 96 31 108)(font "Arial" ))
+	(rect 1944 1088 1976 1120)
+	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
+	(text "inst8" (rect 3 21 25 38)(font "Intel Clear" )(invisible))
 	(port
-		(pt 0 32)
-		(input)
-		(text "clkin" (rect 0 0 22 12)(font "Arial" ))
-		(text "clkin" (rect 21 27 43 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "det[1..0]" (rect 0 0 41 12)(font "Arial" ))
-		(text "det[1..0]" (rect 21 43 62 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 0 64)
-		(input)
-		(text "encodeAsShift" (rect 0 0 71 12)(font "Arial" ))
-		(text "encodeAsShift" (rect 21 59 92 71)(font "Arial" ))
-		(line (pt 0 64)(pt 16 64))
-	)
-	(port
-		(pt 216 32)
+		(pt 16 0)
 		(output)
-		(text "encoded[1..0]" (rect 0 0 67 12)(font "Arial" ))
-		(text "encoded[1..0]" (rect 139 27 195 39)(font "Arial" ))
-		(line (pt 216 32)(pt 200 32)(line_width 3))
-	)
-	(port
-		(pt 216 48)
-		(output)
-		(text "encshft" (rect 0 0 37 12)(font "Arial" ))
-		(text "encshft" (rect 164 43 195 55)(font "Arial" ))
-		(line (pt 216 48)(pt 200 48))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
 	)
 	(drawing
-		(rectangle (rect 16 16 200 96))
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
+	)
+)
+(symbol
+	(rect 1952 912 1984 928)
+	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
+	(text "inst10" (rect 3 5 31 22)(font "Intel Clear" )(invisible))
+	(port
+		(pt 16 16)
+		(output)
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(line (pt 16 16)(pt 16 8))
+	)
+	(drawing
+		(line (pt 8 8)(pt 24 8))
 	)
 )
 (connector
@@ -1266,9 +1363,35 @@ refer to the applicable agreement for further details.
 	(pt 1192 1048)
 	(bus)
 )
+(connector
+	(pt 1976 1064)
+	(pt 1960 1064)
+)
+(connector
+	(pt 1960 1024)
+	(pt 1968 1024)
+)
+(connector
+	(pt 1960 1064)
+	(pt 1960 1088)
+)
+(connector
+	(pt 1968 992)
+	(pt 1960 992)
+)
+(connector
+	(pt 1960 992)
+	(pt 1960 1024)
+)
+(connector
+	(pt 1960 1024)
+	(pt 1960 1064)
+)
 (junction (pt 872 704))
 (junction (pt 440 704))
 (junction (pt 992 528))
 (junction (pt 984 688))
 (junction (pt 976 624))
 (junction (pt 952 528))
+(junction (pt 1960 1064))
+(junction (pt 1960 1024))
