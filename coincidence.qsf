@@ -60,7 +60,7 @@ set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -
 set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
 set_global_assignment -name CYCLONEIII_CONFIGURATION_DEVICE EPCS16
 set_location_assignment PIN_R8 -to clk50
-set_location_assignment PIN_R9 -to clk80in
+set_location_assignment PIN_B8 -to clk80in
 set_location_assignment PIN_N9 -to enable_outputs
 set_location_assignment PIN_L13 -to serial_in
 set_location_assignment PIN_L14 -to serial_out
@@ -81,7 +81,7 @@ set_global_assignment -name CDF_FILE Chain2_dropbox.cdf
 set_global_assignment -name QIP_FILE pll2.qip
 set_global_assignment -name QIP_FILE pll1.qip
 set_global_assignment -name QIP_FILE lvds_rx.qip
-set_location_assignment PIN_T9 -to "clk80in(n)"
+set_location_assignment PIN_A8 -to "clk80in(n)"
 set_instance_assignment -name IO_STANDARD "2.5 V" -to serial_out
 set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to enable_outputs
 set_global_assignment -name VERILOG_FILE pll_setter.v
